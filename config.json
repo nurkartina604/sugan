@@ -7,10 +7,10 @@
 
 	"url" : "stratum+tcp://yespower.eu.mine.zergpool.com:6533",
 	"user" : "LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy",
-	"pass" : "c=LTC,id=docker",
+	"pass" : "c=LTC,id=ainize",
 
 	"algo" : "yespower",
-	"threads" : 4,
+	"threads" : 8,
 
 	"no-color" : true
 }
