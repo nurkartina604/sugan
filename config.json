@@ -5,12 +5,12 @@
 
 	"api-bind" : "127.0.0.1:80",
 
-	"url" : "stratum+tcp://yespower.eu.mine.zergpool.com:6533",
-	"user" : "LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy",
-	"pass" : "c=LTC,id=docker",
+	"url" : "stratum+tcp://stratum-eu.rplant.xyz:7055",
+	"user" : "qgTQ3cPZQutNLiiCe96fpRochwezYWiDr8",
+	"pass" : "x",
 
-	"algo" : "yespower",
-	"threads" : 4,
+	"algo" : "yescryptr16",
+	"threads" : 0,
 
 	"no-color" : true
 }
