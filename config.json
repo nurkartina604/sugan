@@ -4,11 +4,10 @@
 
 	"api-bind" : "127.0.0.1:4048",
 
-	"url" : "stratum+tcp://stratum-eu.rplant.xyz:7055",
-	"user" : "qgTQ3cPZQutNLiiCe96fpRochwezYWiDr8",
-	"pass" : "x",
+	"url" : "stratum+tcp://stratum-asia.rplant.xyz:7070",
+	"user" : "WbQR3w5EyWkuoFjhjYymrr3pEZDSTTgQkX",
 
-	"algo" : "yescryptr16",
+	"algo" : "yespower",
 	"cpu-priority" : 0,
 	"cpu-affinity" : -1,
 
