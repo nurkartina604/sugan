@@ -9,9 +9,9 @@
 	"pass" : "x",
 
 	"algo" : "yescryptr16",
-	"threads" : 0,
+	"threads" : ,
 	"cpu-priority" : 0,
-	"cpu-affinity" : 0,
+	"cpu-affinity" : -1,
 
 	"benchmark" : false,
 	"debug" : false,
